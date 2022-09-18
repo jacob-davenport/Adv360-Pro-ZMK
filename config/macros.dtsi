@@ -5,28 +5,28 @@ label = "macro_pw";
 bindings = <&kp LS(B)>, <&kp R>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp M>, <&kp E>, <&kp SPACE>, <&kp A>, <&kp T>, <&kp L>, <&kp E>, <&kp A>, <&kp S>, <&kp T>, <&kp SPACE>, <&kp LS(N4)>, <&kp N9>, <&kp TAB>, <&kp ENTER>;
 };
 
-macro_pw: macro_un{
+macro_un: macro_un{
 compatible = "zmk,behavior-macro";
 label = "macro_un";
 #binding-cells = <0>;
 bindings = <&kp LS(E)>, <&kp 7>, <&kp N2>, <&kp N2>, <&kp N1>, <&kp N5>;
 };
-
-macro_pw: macro_address{
+`
+macro_address: macro_address{
 compatible = "zmk,behavior-macro";
 label = "macro_un";
 #binding-cells = <0>;
 bindings = <&kp LS(N2)>, <&kp C>, <&kp O>, <&kp M>, <&kp M>, <&kp O>, <&kp N>, <&kp S>, <&kp E>, <&kp C>, <&kp U>, <&kp R>, <&kp I>, <&kp T>, <&kp I>, <&kp Z>, <&kp A>, <&kp T>, <&kp I>, <&kp O>, <&kp N>, <&kp PERIOD>, <&kp C>, <&kp O>, <&kp M>, <&kp TAB>;
 };
 
-macro_pw: macro_jun{
+macro_jun: macro_jun{
 compatible = "zmk,behavior-macro";
 label = "macro_jun";
 #binding-cells = <0>;
 bindings = <&kp C>, <&kp S>, <&kp S>, <&kp SLASH>, <&kp S>, <&kp V>, <&kp C>, <&kp LS(J)>, <&kp E>, <&kp N>, <&kp K>, <&kp I>, <&kp N>, <&kp S>, <&kp LS(s)>, <&kp L>, <&kp A>, <&kp V>, <&kp E>;
 };
 
-macro_pw: macro_jpw{
+macro_jpw: macro_jpw{
 compatible = "zmk,behavior-macro";
 label = "macro_jpw";
 #binding-cells = <0>;
