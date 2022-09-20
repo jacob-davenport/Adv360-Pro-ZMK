@@ -1,3 +1,9 @@
+macro_exit: macro_exit{
+compatible = "zmk,behavior-macro";
+label = "macro_exit";
+#binding-cells = <0>;
+bindings = <&kp E>, <&kp X>, <&kp I>, <&kp T>, <&kp ENTER>;
+};
 macro_pw: macro_pw{
 compatible = "zmk,behavior-macro";
 label = "macro_pw";
