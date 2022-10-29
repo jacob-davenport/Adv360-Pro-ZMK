@@ -8,7 +8,7 @@ macro_pw: macro_pw{
 compatible = "zmk,behavior-macro";
 label = "macro_pw";
 #binding-cells = <0>;
-bindings = <&kp LS(B)>, <&kp R>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp M>, <&kp E>, <&kp SPACE>, <&kp A>, <&kp T>, <&kp SPACE>, <&kp L>, <&kp E>, <&kp A>, <&kp S>, <&kp T>, <&kp SPACE>, <&kp LS(N4)>, <&kp N9>, <&kp TAB>, <&kp ENTER>;
+bindings = <&kp LS(F)>, <&kp I>, <&kp N>, <&kp D>, <&kp SPACE>, <&kp LS(N4)>, <&kp N1>, <&kp LEFT_SHIFT>, <&kp O>, <&kp TAB>, <&kp ENTER>;
 };
 macro_un: macro_un{
 compatible = "zmk,behavior-macro";
