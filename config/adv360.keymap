@@ -63,7 +63,7 @@
  &trans  &macro_address      &kp F7  &kp F8  &kp F9       &trans             &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
  &trans          &trans      &kp F4  &kp F5  &kp F6       &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans  &trans  &trans  &trans
  &trans       &macro_un      &kp F1  &kp F2  &kp F3  &macro_exit             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans       &macro_pw      &trans  &trans  &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &macro_pwt      &trans  &trans  &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
