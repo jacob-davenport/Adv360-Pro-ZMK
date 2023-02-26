@@ -40,7 +40,7 @@
         default_layer {
             bindings = <
  &kp EQUAL            &kp N1     &kp N2      &kp N3     &kp N4    &kp N5                  &tog 1          &mo 3     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
-   &kp TAB  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P     &kp Y               &macro_pw  &kp RIGHT_WIN      &kp F      &kp G      &kp C      &kp R      &kp L     &kp SLASH
+   &kp TAB  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P     &kp Y               &macro_pwt  &kp RIGHT_WIN      &kp F      &kp G      &kp C      &kp R      &kp L     &kp SLASH
    &kp ESC             &kp A      &kp O       &kp E      &kp U     &kp I            &bt BT_SEL 1      &kp LCTRL   &kp LALT                         &kp RALT  &kp RCTRL  &bt BT_SEL 0     &kp D   &kp H   &kp T   &kp N   &kp S   &kp BSLH
  &kp LSHFT          &kp SEMI      &kp Q       &kp J      &kp K     &kp X                   &none          &none   &kp HOME      &none      &none  &kp PG_UP      &none         &none     &kp B   &kp M   &kp W   &kp V   &kp Z  &kp RSHFT
      &mo 2         &kp GRAVE   &kp CAPS    &kp LEFT  &kp RIGHT  &kp BSPC                 &kp DEL        &kp END  &kp PG_DN  &kp ENTER  &kp SPACE     &kp UP   &kp DOWN      &kp LBKT  &kp RBKT   &mo 2
@@ -59,7 +59,7 @@
 
         layer_fn {
             bindings = <
- &trans      &macro_jun  &macro_jpw  &trans  &trans       &trans            &tog 1   &mo 3  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans      &macro_jun  &macro_jpw  &macro_pw  &trans       &trans            &tog 1   &mo 3  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &macro_address      &kp F7  &kp F8  &kp F9       &trans             &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
  &trans          &trans      &kp F4  &kp F5  &kp F6       &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans  &trans  &trans  &trans
  &trans       &macro_un      &kp F1  &kp F2  &kp F3  &macro_exit             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
