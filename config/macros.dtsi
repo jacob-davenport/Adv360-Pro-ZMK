@@ -5,7 +5,7 @@ label = "macro_exit";
 wait-ms=<1>;
 bindings = <&kp E>, <&kp X>, <&kp I>, <&kp T>, <&kp ENTER>;
 };
-macro_pwt: macro_untt{
+macro_untt: macro_untt{
 compatible = "zmk,behavior-macro";
 label = "macro_untt";
 #binding-cells = <0>;
