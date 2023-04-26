@@ -8,8 +8,9 @@
 
 /* THIS FILE WAS GENERATED!
  *
- * This file was generated automatically. You may or may not want to
- * edit it directly.
+ * This file was generated automatically. You may or may not want to edit it directly.
+ *
+ * It was modified by hand.
  */
 
 #include <behaviors.dtsi>
@@ -76,6 +77,5 @@
   &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
             >;
         };
-
     };
 };
