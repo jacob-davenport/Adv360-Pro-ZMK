@@ -35,7 +35,7 @@
       bindings = <
         &kp EQUAL  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &tog 1                                                 &mo 3      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
         &kp TAB    &kp SQT    &kp COMMA  &kp DOT    &kp P      &kp Y      &macro_pw                                              &kp RWIN   &kp F      &kp G      &kp C      &kp R      &kp L      &kp SLASH
-        &kp ESC    &kp A      &kp O      &kp E      &kp U      &kp I      &macro_c1  &kp LCTRL  &kp LALT   &kp RALT   &kp RCTRL  &marco_c2  &kp D      &kp H      &kp T      &kp N      &kp S      &kp BSLH
+        &kp ESC    &kp A      &kp O      &kp E      &kp U      &kp I      &macro_c1  &kp LCTRL  &kp LALT   &kp RALT   &kp RCTRL  &macro_c2  &kp D      &kp H      &kp T      &kp N      &kp S      &kp BSLH
         &kp LSHFT  &kp SEMI   &kp Q      &kp J      &kp K      &kp X                            &kp HOME   &kp PG_UP                        &kp B      &kp M      &kp W      &kp V      &kp Z      &kp RSHFT
         &mo 2      &kp GRAVE  &kp CAPS   &kp LEFT   &kp RIGHT             &kp BSPC   &kp DEL    &kp END    &kp PG_DN  &kp ENTER  &kp SPACE             &kp UP     &kp DOWN   &kp LBKT   &kp RBKT   &mo 2
       >;
@@ -54,8 +54,8 @@
         &trans     &macro_jun &macro_jpw &macro_ver &trans     &trans     &trans                                                 &trans     &trans     &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &trans
         &trans     &macro_add &kp F7     &kp F8     &kp F9     &trans     &trans                                                 &trans     &trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS &trans
         &trans     &trans     &kp F4     &kp F5     &kp F6     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS  &trans
-        &trans     &macro_un  &kp F1     &kp F2     &kp F3     &marco_xit                       &trans     &trans                           &trans     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER &trans
-        &trans     &marco_pw  &trans     &trans     &trans                &trans     &trans     &trans     &trans     &trans     &kp KP_N0  &trans     &trans     &kp KP_DOT &trans     &trans       &trans
+        &trans     &macro_un  &kp F1     &kp F2     &kp F3     &macro_xit                       &trans     &trans                           &trans     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER &trans
+        &trans     &macro_pw  &trans     &trans     &trans                &trans     &trans     &trans     &trans     &trans     &kp KP_N0  &trans     &trans     &kp KP_DOT &trans     &trans       &trans
       >;
     };
 
