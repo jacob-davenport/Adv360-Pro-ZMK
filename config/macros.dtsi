@@ -59,12 +59,12 @@ compatible = "zmk,behavior-macro";
 label = "macro_c1";
 #binding-cells = <0>;
 wait-ms=<1>;
-bindings = <&kp SCROLLOCK>, <&kp SCROLLOCK>, <&kp N1>, <&kp ENTER>;
+bindings = <&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N1>, <&kp ENTER>;
 };
 macro_c1: macro_c2{
 compatible = "zmk,behavior-macro";
 label = "macro_c1";
 #binding-cells = <0>;
 wait-ms=<1>;
-bindings = <&kp SCROLLOCK>, <&kp SCROLLOCK>, <&kp N2>, <&kp ENTER>;
+bindings = <&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N2>, <&kp ENTER>;
 };
