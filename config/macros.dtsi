@@ -17,14 +17,14 @@ compatible = "zmk,behavior-macro";
 label = "macro_pwt";
 #binding-cells = <0>;
 wait-ms=<1>;
-bindings = <&kp LS(U)>, <&kp P>, <&kp D>, <&kp A>, <&kp T>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp S>, <&kp S>, <&kp W>, <&kp O>, <&kp R>, <&kp D>, <&kp S>, <&kp SPACE>, <&kp C>, <&kp O>, <&kp S>, <&kp T>, <&kp S>, <&kp SPACE>, <&kp LS(N4)>, <&kp N2>, <&kp LS(N1)>, <&kp TAB>, <&kp ENTER>;
+bindings = <&kp LS(U)>, <&kp P>, <&kp D>, <&kp A>, <&kp T>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp S>, <&kp S>, <&kp W>, <&kp O>, <&kp R>, <&kp D>, <&kp S>, <&kp SPACE>, <&kp C>, <&kp O>, <&kp S>, <&kp T>, <&kp S>, <&kp SPACE>, <&kp LS(N4)>, <&kp N3>, <&kp LS(N1)>, <&kp TAB>, <&kp ENTER>;
 };
 macro_pw: macro_pw{
 compatible = "zmk,behavior-macro";
 label = "macro_pw";
 #binding-cells = <0>;
 wait-ms=<2>;
-bindings = <&kp LS(U)>, <&kp P>, <&kp D>, <&kp A>, <&kp T>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp S>, <&kp S>, <&kp W>, <&kp O>, <&kp R>, <&kp D>, <&kp S>, <&kp SPACE>, <&kp C>, <&kp O>, <&kp S>, <&kp T>, <&kp S>, <&kp SPACE>, <&kp LS(N4)>, <&kp N2>, <&kp LS(N1)>;
+bindings = <&kp LS(U)>, <&kp P>, <&kp D>, <&kp A>, <&kp T>, <&kp I>, <&kp N>, <&kp G>, <&kp SPACE>, <&kp P>, <&kp A>, <&kp S>, <&kp S>, <&kp W>, <&kp O>, <&kp R>, <&kp D>, <&kp S>, <&kp SPACE>, <&kp C>, <&kp O>, <&kp S>, <&kp T>, <&kp S>, <&kp SPACE>, <&kp LS(N4)>, <&kp N3>, <&kp LS(N1)>;
 };
 macro_un: macro_un{
 compatible = "zmk,behavior-macro";
